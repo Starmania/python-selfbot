@@ -13,17 +13,17 @@ A simple discord selfbot written in python.<br><br>
 
 ## Warning
 
-I don't take any responsibility for using this program. It was made only for educational purposes and shouldnt be used in any malicious way. Using this on a user account is prohibited by the [Discord TOS](https://discord.com/terms) and can lead to getting your account banned. Use at your own risk.
+I don't take any responsibility for using this program. It was made only for educational and administrative purposes and shouldnt be used in any malicious way (really). Using this on a user account is prohibited by the [Discord TOS](https://discord.com/terms) and can lead to getting your account banned. Use at your own risk.
 
 ## About
+
+Fork to get a more "administrative" selfbot and less a spammer
 
 This selfbot was made in python using a requests library that you have to install by yourself on your computer. Made for fun, as I am a python newbie lol. I will include everything you need to do in the [installation process](#installation-process) section.
 
 ## Features
 
 - Customizable message delay
-- Choosing the words that will be spammed
-- Randomizing words and images to send from the list
 - Sending messages/images to multiple channels/dms at once
 - Easy to use
 - more features are going to be added in the future
@@ -62,6 +62,8 @@ user_channels = [
 image_folder_path = r"resources/images"  # Replace with your folder path
 
 ```
+
+> More details Soon™
 - To get your request url, you need to go to the channel that you are trying to flood and open developer tools. Send a random message and look as there is a new request called "messages". Click on it and search for "Request URL". Copy the link and paste it inside the quotes.
 
 - To get your token, you simply need to do the same as before but search for "Authorization". There will be your token.  Copy it and paste it inside the quotes
@@ -79,12 +81,11 @@ Run the program and enjoy :)
 <h3>In the near future:</h3>
 <ul>
   <li>Auto token grabbing, so the user doesn't have to check for it for themselves</li>
-  <li>List of servers and channels generated for the user's account, so they can move easily between channels to spam</li>
+  <li>Auto-grab user list from Members list (will requiere some permissions, but eh, that an admin tool)</li>
 </ul>
 
 <h3>Late future plans:</h3>
 <ul>
-  <li>Bot mod bypassing</li>
   <li>Overall better performance and optimalization</li>
 </ul>
 
